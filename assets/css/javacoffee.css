@@ -1,0 +1,518 @@
+#header {
+    background-color: #D2B48C;
+    min-height: 15vh;
+    padding-left: 2%;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+body {
+
+    height: 100vh;
+    width: 80%;
+    background-image: url(../images/background.gif);
+    background-repeat: repeat;
+    align-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #D2B48C;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2%;
+    border-top: 2px solid #221713;
+    height: 6%;
+}
+
+.content {
+    font-family: Verdana, Arial, sans-serif;
+    color: #221811;
+    background-color: #FCEBB6;
+    position: relative;
+    min-height: 100%;
+}
+
+.left {
+    width: 15%;
+    background: #221713;
+    float: left;
+    height: 100%;
+    position: absolute;
+}
+
+.right {
+    float: right;
+    width: 85%;
+    min-height: 100%;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:link {
+    color: #D2B48C;
+}
+
+
+.menu a:visited {
+    color: #FCEBB6;
+}
+
+#headerimg {
+    width: 100vw;
+    height: 25%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#rightContent {
+    padding-left: 5%;
+    position: inherit;
+}
+
+#menutable th {
+    padding: 5px;
+}
+
+#menutable td {
+    padding: 10px;
+    text-align: left;
+}
+
+#menutable {
+    border-spacing: 0px;
+    margin-bottom: 5%;
+}
+
+#menutable tr:nth-child(odd) {
+    background: #D2B48C;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#menutable {
+    width: 90%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+#pageicon {
+    max-width: 100%;
+}
+
+#jobsForm th {
+    text-align: right;
+    width: 150px;
+}
+
+#jobsForm {
+    padding-top: 25px;
+}
+
+textarea {
+    overflow-y: scroll;
+}
+
+#jobsBorder {
+    height: 25px;
+    background-color: #221713;
+}
+
+#musiccontent article p {
+    padding-left: 20%;
+}
+
+#musiccontent article span {
+    padding-left: 2%;
+    vertical-align: top;
+}
+
+#musiccontent article header {
+    background-color: #D2B48C;
+    padding-left: 5%;
+    font-weight: 500;
+    border-bottom: solid;
+}
+
+#musicHeader {
+    padding-left: 5%;
+}
+
+#musicHeader h3 {
+    padding-left: 2%;
+}
+
+a[href^="tel:"] {
+    text-decoration: none;
+    color: #221811;
+}
+
+#address {
+    font-style: normal;
+}
+
+.content::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.productTable {
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    border-spacing: 0px;
+}
+
+.productTable th {
+    width: 10%;
+    background-color: #D2B48C;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.productTable td {
+    width: 10%;
+    text-align: left;
+    padding: 2%;
+    border: 1px solid #000;
+}
+
+.productimg {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.musicimg {
+    width: 60px;
+    height: 65px;
+}
+
+
+.productTable td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.productTable tr:nth-child(odd) {
+    background: #D2B48C
+}
+
+.productTable tr:nth-child(even) {
+    background: #fcf9b6;
+}
+
+#shoppingCartHeader {
+    margin-top: 8%;
+    text-align: center;
+}
+
+#cartTableDiv {
+    text-align: center;
+}
+
+
+
+.cartTableDiv {
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+
+.cartTable th {
+    width: 10%;
+    background-color: #D2B48C;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cartTable td {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.cartTable {
+    width: 60%;
+    height: 150px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    table-layout: fixed;
+}
+
+.cartTable td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartTable tr:nth-child(odd) {
+    background: #D2B48C;
+}
+
+.cartTable tr:nth-child(even) {
+    background: #fcf9b6;
+}
+
+#ordertable {
+    vertical-align: middle;
+    width: 100%;
+    padding-right: 5%;
+}
+
+#ordertable td {
+    padding: 2%;
+    text-align: left;
+    width: 30%;
+}
+
+#ordertable th {
+    width: 10%;
+    margin-right: 4%;
+    text-align: left;
+}
+
+#ordertable tr {
+    text-align: left;
+}
+
+
+.alignCenter {
+    padding-left: 6%!important;
+}
+
+#orderformdiv {
+    display: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.orderlegend {
+    text-align: center;
+    font-weight: bold;
+}
+
+.errorMessage {
+    color: red;
+    white-space: nowrap;
+    font-size: 12px;
+    display: none;
+}
+
+.successMessage {
+    color: green;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.successMessageInsert {
+    color: green;
+    white-space: nowrap;
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.orderBtn {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.showElement {
+    display: unset;
+}
+.labelBold{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    body {
+        font-size: 8px;
+    }
+    .menu a {
+        font-size: 8px;
+    }
+
+    .productsdiv {
+        overflow-x: auto;
+    }
+    .productTable th {
+        width: 5%;
+        background-color: #D2B48C;
+        border: 1px solid #000;
+        font-size: 7px;
+    }
+
+    .productTable td {
+        font-size: 7px;
+    }
+    .productimg {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    input[type=submit] {
+        width: 50px;
+        height: 12px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    input[type=text] {
+        width: 60px;
+        height: 8px;
+        font-size: 8px;
+    }
+    select {
+        width: 90px;
+        height: 12px;
+        font-size: 8px;
+    }
+    button {
+        width: 25%;
+        height: 15%;
+        font-size: 8px;
+    }
+    .cartTable th {
+        width: 5%;
+        background-color: #D2B48C;
+        font-size: 7px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .cartTable td,
+    th {
+
+        font-size: 7px;
+        height: 15px;
+    }
+    #ordertable {
+
+        padding-right: 5%;
+    }
+    .errorMessage {
+        color: red;
+        white-space: nowrap;
+        font-size: 8px;
+        display: none;
+    }
+    #ordertable tr>* {
+        display: block;
+    }
+    #ordertable input {
+
+        width: 100px;
+        height: 7px;
+    }
+    #ordertable input[type=submit] {
+
+        height: 12px;
+    }
+    #ordertable th {
+        width: unset;
+    }
+    .successMessageInsert {
+
+        margin-left: 20%;
+        font-size: 10px;
+    }
+    .productTable input[type=button] {
+        height: 101x;
+        width: 45px;
+        font-size: 6px;
+    }
+    .orderBtn {
+
+        width: 50px;
+        height: 12px;
+        margin-left: 6px;
+        font-size: 6px;
+    }
+    .continuebtn {
+
+        width: 68px;
+        height: 12px;
+        font-size: 6px;
+    }
+    .btninc {
+        display: block;
+        margin-top: 5px;
+        margin-left: 10px;
+        width: unset;
+    }
+    .btndec {
+        display: block;
+        margin-top: 5px;
+        margin-left: 10px;
+        width: unset;
+    }
+    .btndelete {
+        display: block;
+        margin-top: 5px;
+        width: 40px;
+    }
+    .musicimg {
+        width: 20px;
+        height: 25px;
+    }
+    #musiccontent article p {
+        padding-left: 5%;
+    }
+    #musiccontent article span {
+        font-size: 5px;
+    }
+    footer {
+        height: unset;
+    }
+    img{
+        display: none!important;
+    }
+    .productcol{
+        display: none;
+    }
+    #pageicon{
+        display: none!important;
+    }
+}
